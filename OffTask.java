@@ -14,4 +14,15 @@ public class OffTask implements Data {
     public bool setData(OffTaskValue value) {
         this.value = value;
     }
+	@Override
+	public String toString() {
+		String str = "";
+		switch(value.Value()) {
+		case P: str = "On Task"; break;
+		case N: str = "Off Task (Noise)"; break;
+		case M: str = "Off Task (Motor)"; break;
+		case O: str = "Off Task (Other)"; break;
+		}
+		return str;
+	}
 }

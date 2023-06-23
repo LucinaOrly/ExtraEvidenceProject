@@ -1,6 +1,6 @@
 // Program. Do things.
 
-public class Main {
+public class FormalObservationController {
 	public static void main(String[] args) {
 	}
 	

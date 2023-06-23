@@ -1,5 +1,5 @@
 // IntervalRecord class
-public class Interval {
+public class IntervalRecord {
 	private int number;
     private Data data; // an interface
     public Interval() {
@@ -13,4 +13,8 @@ public class Interval {
     public void setNumber(int number) {
         this.number = Math.abs(number);
     } 
+
+	public Data getData() {
+		return data;
+	}
 }

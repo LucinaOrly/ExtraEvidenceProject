@@ -2,4 +2,6 @@
 public interface Data<T> {
 	public T getData();
 	public void setData(T);
+	@Override
+	public String toString();
 }
