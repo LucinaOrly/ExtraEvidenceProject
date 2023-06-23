@@ -21,24 +21,33 @@ Quit the program by typing 'Q'.
 # Installation
 
 **Windows 11/10/8:** 
-    1. Download the zip file and extract.
-    2. Simply open the file **`MainDemoLoop.bat`**.
+1. Download the zip file and extract.
+2. Simply open the file **`MainLoopDemo.bat`**.
 
 **Mac**
-    1. Download the zip file and extract.
-    2. Right click unzipped folder and click on open Terminal.
-    3. Copy and paste the following commands into terminal to run program.
-> javac MainDemoLoop.java
-> java MainDemoLoop
+1. Download the zip file and extract.
+2. Right click unzipped folder and click on open Terminal.
+3. Copy and paste the following commands into terminal to run program.
+~~~
+javac MainLoopDemo.java
+java MainLoopDemo
+~~~
 
 **Linux/Unix Systems**
-    1. Download zip file.
-    2. unzip file archive.
-    3. If `GNU Make` is installed, type the following command.
-> make run
-    4. If not, run the following commands.
-> javac MainDemoLoop.java
-> java MainDemoLoop
+1. Download zip file.
+2. unzip file archive.
+3. If `GNU Make` is installed, type the following command.
+~~~
+make run
+~~~
+
+
+4. If not, run the following commands.
+
+~~~
+javac MainLoopDemo.java
+java MainLoopDemo
+~~~
 
 
 
