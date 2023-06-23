@@ -34,7 +34,7 @@ public class MainLoopDemo {
 				case 'N': nCount++; break;
 				}
 
-			System.out.printf("%s%sInterval: %d%nP = %d%nN = %d%nM = %d%nO = %d%n%s",
+			System.out.printf("%s%s%nInterval: %d%nP = %d%nN = %d%nM = %d%nO = %d%n%s",
 					EMPTY_SPACE, LINEE, interval, pCount, nCount, mCount, oCount, LINEE);
 		}
 		System.out.print("Press enter to exit.");
