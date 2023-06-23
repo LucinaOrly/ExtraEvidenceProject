@@ -3,7 +3,7 @@
 
 This program serves as a barebones demonstration for formal observation of Off-Task behaviors in a classroom setting as described by *Charles Madsen* and *Clifford Madsen* in their book *Teaching / Discipline; A Positive Approach for Educational Development. Fifth Edition*. The demonstation is made specifically for MUE 4392 as a presentation of the early stages of this program. The program's inspiration comes from *SCRIBE* (Simple Computer Recording Interface for Behavioral Evauation) developed by *Robert Duke* at the *University of Texas*. This program is open-source and does not serve as a suitable replacement for any version of SCRIBE released.
 
-# How to use
+### How to use
 To operate program, user should select the interval time in seconds when prompted. The user will observe for set time, and will record behaviors by typing in the console either 'P' 'N' 'M' or 'O'.
 - P = On Task
 - N = Off Task (Noise)
